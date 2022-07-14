@@ -223,3 +223,116 @@
         transform: scale(1);
     }
 }
+
+/* FORM ĐĂNG KÝ */
+.auth-form{
+    border-radius: 4px;
+    background-color: var(--white-color);
+    overflow: hidden;
+}
+
+.auth-form__form{
+    width: 450px;
+    padding: 0 24px;
+}
+
+.auth-form__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    margin-bottom: 26px;
+}
+
+.auth-form__heading{
+    font-size: 2rem;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.auth-form__switch-btn{
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    cursor: pointer;    
+}
+
+.auth-form__input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 16px;
+    border: solid 2px var(--boder-color);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    padding:0 8px;
+    font-weight: 500;
+    outline: none;
+}
+
+.auth-form__input:focus{
+    border-color: #888;
+}
+
+.auth-form__aside{
+    padding: 0 9px;
+    text-align: center;
+}
+
+.auth-form__policy{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+}
+
+.auth-form__policy a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.auth-form__control{
+    display: flex;
+    justify-content: end;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.auth-form__control .btn{
+    margin-left: 4px;
+    text-transform: uppercase;
+}
+
+.auth-form__footer{
+    background-color: #f5f5f5;
+    padding: 14px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth-form__footer-icon{
+    font-size: 1.8rem;
+}
+
+.auth-form__footer-facebook{
+    background-color: #3A5A98;
+    color: var(--white-color);
+}
+
+.auth-form__footer-facebook
+.auth-form__footer-icon{
+    color: var(--white-color);
+}
+
+.auth-form__footer-google{
+    background-color: var(--white-color);
+    color: var(--text-color);
+}
+
+.auth-form__footer-google
+.auth-form__footer-icon{
+    color: rgb(230, 100, 14);
+}
+
+.auth-form__footer-label{
+    margin: 0 26px;
+}
