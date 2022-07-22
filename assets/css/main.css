@@ -583,9 +583,9 @@
     border-radius: 2px;
     text-align: center;
     box-shadow: 0 1px 3.125rem 0 rgba(0, 0, 0, 0.2);
-    display: none;
     animation: fadeIn ease 0.6s;
     cursor: default;
+    display: none;
 }
 
 .header-cart__list::before{
@@ -659,4 +659,105 @@
     display: flex;
     align-items: center;
     color: var(--primary-color);
+}
+
+
+/* Header cart list product */
+
+.header-cart__heading{
+    text-align: left;
+    font-size: 1.5rem;
+    color: #999;
+    margin: 8px 12px 8px 12px;
+    font-weight: 400;
+}
+
+.header-cart__list-product{
+    padding-left: 0;
+    list-style: none;
+}
+
+.header-cart__item{
+    display: flex;
+    align-items: center;
+}
+
+.header-cart__item:hover{
+    background-color: #F8F8F8;
+}
+
+.header-cart__img{
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 12px;
+    border: solid 1px var(--boder-color);
+}
+
+.header-cart__info{
+    width: 100%;
+    margin-right: 12px;
+}
+
+.header-cart__item-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header-cart__item-name{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin: 0;
+}
+
+.header-cart__item-price{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--primary-color)
+}
+
+.header-cart__item-multiply{
+    font-size: 1rem;
+    margin: 0 2px;
+}
+
+.header-cart__item-quantity{
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.header-cart__item-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-cart__item-option{
+    font-size: 1.3rem;
+    color: rgb(156, 153, 153);
+    font-weight: 400;
+}
+
+.header-cart__item-remove{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+.header-cart__item-remove:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.header-cart__view-cart{
+    width: 120px;
+    float: right;
+    margin: 0 12px 12px 0;
+}
+
+.header-cart__view-cart:hover{
+    background-color: #ee654a;
 }
