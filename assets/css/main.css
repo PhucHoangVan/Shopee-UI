@@ -942,6 +942,29 @@
     transition: right linear 0.1s;
 }
 
+.option-filter{
+    padding: 6px 26px;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    height: 3rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.option-filter__checkbox{
+    height: 14px;
+    width: 14px;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+}
+
+.option-filter__checkbox-label{
+}
+
 .category-item__link:hover {
     color: var(--primary-color);
     right: -4px;
